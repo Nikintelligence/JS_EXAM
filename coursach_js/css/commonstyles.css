@@ -1,0 +1,44 @@
+@import "flex-grid.css";
+*{
+  box-sizing: border-box;
+}
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav{
+  line-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: sticky;
+}
+
+.separator{
+  width: 10px;
+  height: 10px;
+}
+
+nav a{
+  text-decoration: none;
+  color: rgb(236, 221, 221);
+  border-bottom: 2px solid transparent;
+  margin: auto 10px;
+}
+nav a.current{
+  color: #d67b31;
+  border-bottom: 3px solid #ff1e1e;
+}
+
+header{
+  position: sticky;
+  top: 0px;
+  background-color: rgb(15, 12, 12);
+  z-index: 100;
+}
+
+body{
+  background-color: #ebcbb19d;
+  margin: 0;
+}
